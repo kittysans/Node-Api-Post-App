@@ -1,0 +1,33 @@
+.homepage {
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+  
+.nav {
+    height: 80px;
+    background: #31363F;
+    color: #FFFFFF;
+    padding-inline: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+  
+.nav .button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #EEEEEE;
+    color: #222831;
+    font-weight: bold;
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+  
+main {
+    display: grid;
+    gap: 30px;
+    margin-bottom: 30px;
+}

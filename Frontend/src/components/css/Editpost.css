@@ -1,0 +1,9 @@
+.button-line {
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+}
+
+.button-line .delete-button {
+    background: red;
+}
